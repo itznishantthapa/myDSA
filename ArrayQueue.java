@@ -1,4 +1,4 @@
-public class ArrayStack{
+public class ArrayQueue{
 
     static int n =5;
     static int[] queue = new int[n];
