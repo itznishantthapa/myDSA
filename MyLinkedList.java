@@ -36,16 +36,16 @@ public class MyLinkedList{
        
         Node jumper=head;
         Node pointer=head;
-        Node attractent=null;
+        Node previous=null;
 
         while(jumper!=null){
             jumper=jumper.next;
-            pointer.next=attractent;
+            pointer.next=previous;
 
-            attractent=pointer;
+            previous=pointer;
             pointer=jumper;
         }
-        head=attractent;
+        head=previous;
     }
 
     public static void display(){
