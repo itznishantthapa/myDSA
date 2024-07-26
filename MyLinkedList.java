@@ -50,6 +50,7 @@ public class MyLinkedList{
 
     public static void display(){
         Node current=head;
+        // System.out.println(head);
 
         if(current==null){
             System.out.println("List empty");
