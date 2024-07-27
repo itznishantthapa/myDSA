@@ -49,7 +49,7 @@ public class Stacked {
 
         stack.display();
 
-        stack.pop();
+        // stack.pop();
 
         stack.display();
     }
